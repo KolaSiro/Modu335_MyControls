@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".ButtonActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/act_title"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:text="@string/normaler_button"/>
+
+
+
+    <Button
+        android:id="@+id/buttonicon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/button"
+        android:drawableLeft="@drawable/pic_switzerland"
+        android:drawableRight="@drawable/pic_switzerland"
+        android:text="Button mit Icon"
+        />
+
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/buttonicon"
+        android:text="Check Box 1"/>
+
+    <ToggleButton
+        android:id="@+id/toggleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/checkBox2"
+        android:text="Toggle Button"/>
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toggleButton"
+        android:src="@drawable/azo_logo_c"
+        />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/imageButton"
+        android:background="@android:color/darker_gray">
+
+        <RadioButton
+            android:id="@+id/radioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Radio Button 1"/>
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Radio Button 2"/>
+    </RadioGroup>
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Switch"/>
+
+
+    <com.google.android.material.chip.ChipGroup
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chipOne"
+            style="@style/Widget.MaterialComponents.Chip.Filter"
+            android:layout_width="121dp"
+            android:layout_height="wrap_content"
+            android:text="Filter"
+            app:chipIcon="@drawable/azo_logo_c" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chipTwo"
+            style="@style/Widget.MaterialComponents.Chip.Action"
+            android:layout_width="126dp"
+            android:layout_height="wrap_content"
+            android:text="Action"
+            app:chipIcon="@drawable/azo_logo_c" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chipThree"
+            style="@style/Widget.MaterialComponents.Chip.Choice"
+            android:layout_width="126dp"
+            android:layout_height="wrap_content"
+            android:text="Choice"
+             />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chipFour"
+            style="@style/Widget.MaterialComponents.Chip.Entry"
+            android:layout_width="126dp"
+            android:layout_height="wrap_content"
+            android:text="Entry"
+            />
+
+    </com.google.android.material.chip.ChipGroup>
+
+</LinearLayout>

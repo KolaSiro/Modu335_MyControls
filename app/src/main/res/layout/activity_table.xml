@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:paddingLeft="3dp"
+    android:paddingTop="3dp"
+    android:paddingEnd="3dp"
+    android:paddingRight="3dp"
+    android:paddingBottom="3dp">
+
+    <TableRow>
+
+        <TextView
+            android:layout_column="0"
+            android:background="#D24747"
+            android:padding="3dp"
+            android:text="Land"
+
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_column="1"
+            android:background="#FFF"
+            android:padding="3dp"
+            android:text="Meldung"
+
+            android:textStyle="normal" />
+
+        <TextView
+            android:layout_column="2"
+            android:padding="3dp"
+            android:text="Resultat"
+
+            android:textStyle="bold" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_column="0"
+            android:padding="3dp"
+            android:text="Schweiz - Portugal" />
+
+        <TextView
+            android:layout_column="1"
+            android:text="nach Verlängerung" />
+
+        <TextView
+            android:layout_column="2"
+            android:gravity="center_horizontal"
+            android:padding="3dp"
+            android:text="2 : 1" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_column="0"
+            android:padding="3dp"
+            android:text="Deutschland - Uruguay" />
+
+        <TextView android:layout_column="1">
+
+        </TextView>
+
+        <TextView
+            android:layout_column="2"
+            android:gravity="center_horizontal"
+            android:padding="3dp"
+            android:text="0 : 0" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_column="0"
+            android:padding="3dp"
+            android:text="Brasilien - England" />
+
+        <TextView android:layout_column="1">
+
+        </TextView>
+
+        <TextView
+            android:layout_column="2"
+            android:gravity="center_horizontal"
+            android:padding="3dp"
+            android:text="2 : 0" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_column="0"
+            android:padding="3dp"
+            android:text="Mexico - Kanada" />
+
+        <TextView
+            android:layout_column="1"
+            android:padding="3dp"
+            android:text="forfait" />
+
+        <TextView
+            android:layout_column="2"
+            android:gravity="center_horizontal"
+            android:padding="3dp"
+            android:text="3 : 0" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_column="1"
+            android:padding="3dp"
+            android:text="Ende der Liste" />
+    </TableRow>
+
+    <View
+        android:layout_height="6dp"
+        android:background="#FF909090" />
+
+    <View
+        android:layout_height="6dp"
+        android:background="#FF909090" />
+
+    <View
+        android:layout_height="6dp"
+        android:background="#FF909090" />
+</TableLayout>

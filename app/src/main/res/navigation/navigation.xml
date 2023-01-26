@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/constraintActivity">
+
+    <activity
+        android:id="@+id/constraintActivity"
+        android:name="info.azoberland.mycontrols.ConstraintActivity"
+        android:label="activity_constraint"
+        tools:layout="@layout/activity_constraint" />
+</navigation>

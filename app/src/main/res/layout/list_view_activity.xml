@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ListViewActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical">
+
+    <ListView
+        android:id="@+id/list"
+        style="@android:style/Widget.Material.ListView.DropDown"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:soundEffectsEnabled="?android:attr/windowSwipeToDismiss"
+        android:theme="@android:style/TextAppearance.Holo.Large">
+    </ListView>
+</LinearLayout>

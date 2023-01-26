@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              tools:context=".MainActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+
+        android:clickable="true"
+        android:onClick="onClickButtons">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical|center_horizontal"
+            android:onClick="onClickButtons"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Buttons"/>
+    </FrameLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+
+        android:clickable="true"
+        android:onClick="onClickListView">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical|center_horizontal"
+            android:onClick="onClickListView"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="ListView"/>
+    </FrameLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+
+        android:clickable="true"
+        android:onClick="onClickList2Row">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical|center_horizontal"
+            android:onClick="onClickList2Row"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="ListView 2 Row"/>
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+
+        android:clickable="true"
+        android:onClick="onClickListViewExpandable">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical|center_horizontal"
+            android:onClick="onClickListViewExpandable"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="ListView Expandable"/>
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+
+        android:clickable="true"
+        android:onClick="onClickHardware">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical|center_horizontal"
+            android:onClick="onClickHardware"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Hardware"/>
+    </FrameLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+
+        android:clickable="true"
+        android:onClick="onClickGridLayout">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical|center_horizontal"
+            android:onClick="onClickGridLayout"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="GridLayout"/>
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+
+        android:clickable="true"
+        android:onClick="onClickDynamicView">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical|center_horizontal"
+            android:onClick="onClickDynamicView"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="dynamic View"/>
+    </FrameLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical|center_horizontal"
+            android:onClick="onClickRecyclerView"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="RecyclerView" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical|center_horizontal"
+            android:onClick="onClickMeldungenView"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Meldungen anzeigen" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical|center_horizontal"
+            android:onClick="onClickTableLayoutView"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="TableLayout anzeigen" />
+
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">MyControls</string>
+
+    <string name="act_title">Buttons</string>
+    <string name="action_settings">Settings</string>
+    <string name="normaler_button">Normaler Button</string>
+    <string name="title_activity_geolocation">GeolocationActivity</string>
+    <string name="title_activity_gps">GpsActivity</string>
+    <string name="gps_geolocation">GPS Geolocation</string>
+    <string name="breitengrad">Breitengrad-Longitude</string>
+    <string name="l_ngengrad">Längengrad-Latitude</string>
+    <string name="hoehe">Höhe</string>
+
+    <string name="element_text">Element</string>
+    <string name="grid_layout_manager">Grid Layout Manager</string>
+    <string name="linear_layout_manager">Linear Layout Manager</string>
+    <string name="title_activity_recycler_view">RecyclerViewActivity</string>
+</resources>

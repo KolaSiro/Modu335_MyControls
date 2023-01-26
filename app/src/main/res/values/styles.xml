@@ -1,0 +1,20 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" >
+        <!-- Customize your theme here. -->
+        <item name="android:colorForeground">@color/foreground_material_dark</item>
+        <item name="android:windowBackground">@color/colorBackground</item>
+    </style>
+
+
+    <!-- Im TableLayout verwenden wir groesere Schriften -->
+    <style name="MyTheme" parent="android:Theme">
+        <item name="android:textViewStyle">@style/MyTextView</item>
+    </style>
+
+    <style name="MyTextView" parent="android:Widget.TextView">
+        <item name="android:textSize">26sp</item>
+    </style>
+
+</resources>
