@@ -7,6 +7,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 
+// Haupteinstiegsklasse fuer MyControls - App
 public class MainActivity extends Activity
 {
     @Override
